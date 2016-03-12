@@ -1,0 +1,180 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.cwd.cmeplayer.BuildConfig
+com.cwd.cmeplayer.MainActivity:
+    public static final int SLIDING_MENU_SCAN
+    public static final int SLIDING_MENU_ALL
+    public static final int SLIDING_MENU_FAVORITE
+    public static final int SLIDING_MENU_FOLDER
+    public static final int SLIDING_MENU_EXIT
+    public static final int SLIDING_MENU_FOLDER_LIST
+    public static final int DIALOG_DISMISS
+    public static final int DIALOG_SCAN
+    public static final int DIALOG_MENU_REMOVE
+    public static final int DIALOG_MENU_DELETE
+    public static final int DIALOG_MENU_INFO
+    public static final int DIALOG_DELETE
+    public static final java.lang.String PREFERENCES_NAME
+    public static final java.lang.String PREFERENCES_MODE
+    public static final java.lang.String PREFERENCES_SCAN
+    public static final java.lang.String PREFERENCES_SKIN
+    public static final java.lang.String PREFERENCES_LYRIC
+    public static final java.lang.String BROADCAST_ACTION_SCAN
+    public static final java.lang.String BROADCAST_ACTION_MENU
+    public static final java.lang.String BROADCAST_ACTION_FAVORITE
+    public static final java.lang.String BROADCAST_ACTION_EXIT
+    public static final java.lang.String BROADCAST_INTENT_PAGE
+    public static final java.lang.String BROADCAST_INTENT_POSITION
+com.cwd.cmeplayer.R:
+    10:10:public R()
+com.cwd.cmeplayer.R$anim
+com.cwd.cmeplayer.R$array
+com.cwd.cmeplayer.R$attr
+com.cwd.cmeplayer.R$color
+com.cwd.cmeplayer.R$dimen
+com.cwd.cmeplayer.R$drawable
+com.cwd.cmeplayer.R$id
+com.cwd.cmeplayer.R$layout
+com.cwd.cmeplayer.R$string
+com.cwd.cmeplayer.R$style
+com.cwd.cmeplayer.R$styleable:
+    666:666:public R$styleable()
+com.cwd.cmeplayer.custom.PushView$MarqueeTextView:
+    156:159:public PushView$MarqueeTextView(com.cwd.cmeplayer.custom.PushView,android.content.Context)
+    166:169:public PushView$MarqueeTextView(com.cwd.cmeplayer.custom.PushView,android.content.Context,android.util.AttributeSet,int)
+com.cwd.cmeplayer.custom.ScrollTextView:
+    private static final int MSG_FIRST
+    private static final int MSG_START
+    private static final int MSG_UPDATE
+    private static final int TIME_START
+    private static final int TIME_UPDATE
+    54:57:public ScrollTextView(android.content.Context)
+com.cwd.cmeplayer.db.DBData
+com.cwd.cmeplayer.dialog.AboutDialog:
+    32:34:public AboutDialog(android.content.Context,int)
+    38:40:protected AboutDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+com.cwd.cmeplayer.dialog.DeleteDialog:
+    35:37:public DeleteDialog(android.content.Context,int)
+    41:43:protected DeleteDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+com.cwd.cmeplayer.dialog.InfoDialog:
+    45:47:public InfoDialog(android.content.Context,int)
+    51:53:protected InfoDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+com.cwd.cmeplayer.dialog.MenuDialog:
+    39:41:public MenuDialog(android.content.Context,int)
+    45:47:protected MenuDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+com.cwd.cmeplayer.dialog.ScanDialog:
+    32:34:public ScanDialog(android.content.Context,int)
+    38:40:protected ScanDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+com.cwd.cmeplayer.dialog.TVAnimDialog:
+    34:36:public TVAnimDialog(android.content.Context,int)
+    40:42:protected TVAnimDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+com.cwd.cmeplayer.entity.ScanInfo:
+    28:29:public void setFolderPath(java.lang.String)
+com.cwd.cmeplayer.list.CoverList:
+    14:14:public CoverList()
+com.cwd.cmeplayer.list.FavoriteList:
+    19:19:public FavoriteList()
+com.cwd.cmeplayer.list.FolderList:
+    17:17:public FolderList()
+com.cwd.cmeplayer.list.LyricList:
+    14:14:public LyricList()
+com.cwd.cmeplayer.list.MusicList:
+    17:17:public MusicList()
+com.cwd.cmeplayer.service.MediaService:
+    public static final int CONTROL_COMMAND_PLAY
+    public static final int CONTROL_COMMAND_PREVIOUS
+    public static final int CONTROL_COMMAND_NEXT
+    public static final int CONTROL_COMMAND_MODE
+    public static final int CONTROL_COMMAND_REWIND
+    public static final int CONTROL_COMMAND_FORWARD
+    public static final int CONTROL_COMMAND_REPLAY
+    public static final int ACTIVITY_SCAN
+    public static final int ACTIVITY_MAIN
+    public static final int ACTIVITY_PLAYER
+    public static final int ACTIVITY_SETTING
+    public static final java.lang.String INTENT_ACTIVITY
+    public static final java.lang.String INTENT_LIST_PAGE
+    public static final java.lang.String INTENT_LIST_POSITION
+    public static final java.lang.String INTENT_FOLDER_POSITION
+    public static final java.lang.String BROADCAST_ACTION_SERVICE
+    private static final int MEDIA_PLAY_ERROR
+    private static final int MEDIA_PLAY_START
+    private static final int MEDIA_PLAY_UPDATE
+    private static final int MEDIA_PLAY_COMPLETE
+    private static final int MEDIA_PLAY_UPDATE_LYRIC
+    private static final int MEDIA_PLAY_REWIND
+    private static final int MEDIA_PLAY_FORWARD
+    private static final int MEDIA_BUTTON_ONE_CLICK
+    private static final int MEDIA_BUTTON_DOUBLE_CLICK
+com.cwd.cmeplayer.slidingmenu.CustomViewAbove:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    private static final boolean USE_CACHE
+    private static final int MAX_SETTLE_DURATION
+    private static final int MIN_DISTANCE_FOR_FLING
+    private static final int INVALID_POINTER
+    314:317:public void addIgnoredView(android.view.View)
+    320:321:public void removeIgnoredView(android.view.View)
+    324:325:public void clearIgnoredViews()
+    386:392:public int getChildWidth(int)
+    397:397:public boolean isSlidingEnabled()
+    413:414:void smoothScrollTo(int,int)
+    972:993:protected boolean canScroll(android.view.View,boolean,int,int,int)
+com.cwd.cmeplayer.slidingmenu.CustomViewAbove$SimpleOnPageChangeListener:
+    171:171:public void onPageScrollStateChanged(int)
+com.cwd.cmeplayer.slidingmenu.CustomViewBehind:
+    private static final java.lang.String TAG
+    private static final int MARGIN_THRESHOLD
+com.cwd.cmeplayer.slidingmenu.SlidingActivityBase
+com.cwd.cmeplayer.slidingmenu.SlidingActivityHelper:
+    122:126:public void setSlidingActionBarEnabled(boolean)
+    188:190:public void setContentView(android.view.View)
+    242:243:public void showSecondaryMenu()
+com.cwd.cmeplayer.slidingmenu.SlidingListActivity:
+    172:173:public void showContent()
+    190:191:public void showSecondaryMenu()
+    201:202:public void setSlidingActionBarEnabled(boolean)
+com.cwd.cmeplayer.slidingmenu.SlidingMenu:
+    private static final java.lang.String TAG
+    public static final int SLIDING_WINDOW
+    public static final int SLIDING_CONTENT
+    public static final int TOUCHMODE_MARGIN
+    public static final int TOUCHMODE_FULLSCREEN
+    public static final int TOUCHMODE_NONE
+    public static final int LEFT
+    public static final int RIGHT
+    public static final int LEFT_RIGHT
+    501:501:public boolean isSlidingEnabled()
+    570:571:public void showSecondaryMenu()
+    948:949:public void addIgnoredView(android.view.View)
+    958:959:public void removeIgnoredView(android.view.View)
+    966:967:public void clearIgnoredViews()
+com.cwd.cmeplayer.slidingmenu.SlidingMenu$1:
+    public static final int POSITION_OPEN
+    public static final int POSITION_CLOSE
+com.cwd.cmeplayer.util.FormatUtil:
+    15:15:public FormatUtil()
+com.cwd.cmeplayer.util.ImageUtil:
+    public static final int TOP
+    public static final int BOTTOM
+    public static final int LEFT
+    public static final int RIGHT
+    public static final int LEFT_TOP
+    public static final int LEFT_BOTTOM
+    public static final int RIGHT_TOP
+    public static final int RIGHT_BOTTOM
+    38:38:public ImageUtil()
+    60:64:public static android.graphics.Bitmap zoomBitmap(android.graphics.Bitmap,float,float)
+    79:79:public static android.graphics.Bitmap zoomBitmap(android.graphics.Bitmap,int,int)
+    90:90:public static android.graphics.Bitmap drawableToBitmap(android.graphics.drawable.Drawable)
+    101:102:public static android.graphics.drawable.Drawable bitmapToDrawable(android.graphics.Bitmap)
+    113:115:public static byte[] bitmapToByte(android.graphics.Bitmap)
+    126:129:public static android.graphics.Bitmap byteToBitmap(byte[])
+    142:163:public static android.graphics.Bitmap createRoundedCornerBitmap(android.graphics.Bitmap,int)
+    177:189:public static android.graphics.drawable.Drawable createSelectedTip(android.content.Context,int,int)
+    237:258:public static android.graphics.Bitmap createReflectionBitmapForSingle(android.graphics.Bitmap)
+    269:281:public static android.graphics.Bitmap createGrayBitmap(android.graphics.Bitmap)
+    297:310:public static boolean saveImage(android.graphics.Bitmap,java.lang.String,android.graphics.Bitmap$CompressFormat)
+    328:345:public static android.graphics.Bitmap createWatermark(android.graphics.Bitmap,android.graphics.Bitmap,int,int)
+    358:365:public static varargs android.graphics.Bitmap composeBitmap(int,android.graphics.Bitmap[])
+    370:407:private static android.graphics.Bitmap composeBitmap(android.graphics.Bitmap,android.graphics.Bitmap,int)

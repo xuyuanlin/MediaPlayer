@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dip"
+        android:text="@string/dialog_layout_A" />
+
+    <SeekBar
+        android:id="@+id/seekBarA"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="26.0dip"
+        android:paddingRight="26.0dip"
+        android:progressDrawable="@drawable/player_volume_seekbar_style"
+        android:thumb="@drawable/player_volume_seekbar_thumb_style"
+        android:thumbOffset="24.0dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dip"
+        android:text="@string/dialog_layout_R" />
+
+    <SeekBar
+        android:id="@+id/seekBarR"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="26.0dip"
+        android:paddingRight="26.0dip"
+        android:progressDrawable="@drawable/player_volume_seekbar_style"
+        android:thumb="@drawable/player_volume_seekbar_thumb_style"
+        android:thumbOffset="24.0dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dip"
+        android:text="@string/dialog_layout_G" />
+
+    <SeekBar
+        android:id="@+id/seekBarG"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="26.0dip"
+        android:paddingRight="26.0dip"
+        android:progressDrawable="@drawable/player_volume_seekbar_style"
+        android:thumb="@drawable/player_volume_seekbar_thumb_style"
+        android:thumbOffset="24.0dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dip"
+        android:text="@string/dialog_layout_B" />
+
+    <SeekBar
+        android:id="@+id/seekBarB"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="26.0dip"
+        android:paddingRight="26.0dip"
+        android:progressDrawable="@drawable/player_volume_seekbar_style"
+        android:thumb="@drawable/player_volume_seekbar_thumb_style"
+        android:thumbOffset="24.0dip" />
+
+    <Button
+        android:id="@+id/seekbarFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/PlayerActivity_dialog" />
+
+</LinearLayout>

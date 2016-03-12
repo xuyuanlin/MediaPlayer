@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.flyaudio.flyMediaPlayer.view.VisualizerView
+        android:id="@+id/activity_player_visualizer"
+        android:layout_width="match_parent"
+        android:layout_height="125.0dip"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+      />
+    <com.flyaudio.flyMediaPlayer.view.LyricView
+        android:id="@+id/activity_player_lyric"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/activity_player_visualizer" />
+
+</RelativeLayout>
